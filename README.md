@@ -24,7 +24,7 @@ ICDM_2025_LatexFC addresses these challenges by leveraging large language models
 
 ## Architecture
 <p align="center">
-<img src="https://github.com/ZoeLinUTS/ICDM_2025_LatexFC/blob/58bae6c67edbd54d5c05a452542a538eb2494af9/%20System_Architecture.png" width="80%" alt="System Architecture Diagram">
+<img src="https://github.com/ZoeLinUTS/ICDM_2025_LatexFC/blob/58bae6c67edbd54d5c05a452542a538eb2494af9/%20System_Architecture.png" width="60%" alt="System Architecture Diagram">
 </p>
 
 
