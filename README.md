@@ -23,6 +23,8 @@ ICDM_2025_LatexFC addresses these challenges by leveraging large language models
 - **Validation & Reliability**: Built-in post-processing ensures compilable LaTeX code, preserving structure and reducing errors in the final manuscript.
 
 ## Architecture
-![System Architecture](https://github.com/ZoeLinUTS/ICDM_2025_LatexFC/blob/58bae6c67edbd54d5c05a452542a538eb2494af9/%20System_Architecture.png)
+<p align="center">
+<img src="[https://github.com/ZoeLinUTS/ICDM_2025_LatexFC/raw/main/System_Architecture.png](https://github.com/ZoeLinUTS/ICDM_2025_LatexFC/blob/58bae6c67edbd54d5c05a452542a538eb2494af9/%20System_Architecture.png)" width="80%" alt="System Architecture Diagram">
+</p>
 
 
