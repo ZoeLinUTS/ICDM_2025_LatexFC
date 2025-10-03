@@ -35,7 +35,7 @@ The front-end provides an intuitive web interface where users can configure thei
 *   **Main Conversion Interface:** The primary entry point for the formatting tool.
     *   **AI Model Selection:** Allows users to choose the specific LLM that will perform the conversion.
     *   **Target Format Selection:** A dropdown menu or list where users can select the desired LaTeX template (e.g., IEEE, Springer, MDPI).
-    *   **Content Input:** Provides a flexible area for users to either paste their raw paper content or upload an existing .tex file.
+    *   **Content Input:** Provides a flexible area for users to either paste their paper content or upload an existing .tex file.
 
 *   **Results & Download Interface:** The page displayed after the conversion is complete.
     *   **Output Preview:** Shows the generated LaTeX code for user review.
@@ -46,7 +46,7 @@ The front-end provides an intuitive web interface where users can configure thei
 The back-end serves as the core engine, managing the entire conversion workflow from input validation to final output generation.
 
 *   **Input Pre-processing Module:** Cleans and validates the user-submitted content, ensuring that structured sections like Title, Abstract, Introduction, and References are correctly identified and handled.
-*   **Configuration Management Module:** Manages the specific formatting rules, packages, and structural differences between various target templates (e.g., IEEE vs. Springer).
+*   **Configuration Management Module:** Manages the specific formatting rules, packages, and structural differences between various target templates (e.g., IEEE, Springer).
 *   **Retrieval-Augmented Generation (RAG) Core:** The central processing unit. It enhances the LLM's performance by providing it with relevant examples from the target LaTeX templates, ensuring high accuracy and formatting consistency.
 *   **Prompt Engineering Module:** Constructs a detailed, structured prompt for the LLM by combining system instructions, the target format template, and the pre-processed user content.
 *   **Output Packaging & Delivery Module:** Handles the final steps of the process. It validates the generated .tex and required .cls files, packages them into a single .zip archive, and delivers the downloadable file or Overleaf link to the front-end.
