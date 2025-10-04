@@ -3,8 +3,9 @@ This is a repository for our project LatexFC that has been accepted by ICDM 2025
 
 ## Overview  
 ICDM_2025_LatexFC is a Large Language Model (LLM)-powered framework that automates the conversion of LaTeX manuscripts across heterogeneous publisher-specific templates (IEEE, MDPI, Springer, Elsevier, etc.).  
+
 By integrating **prompt engineering, retrieval-augmented generation (RAG), and structured validation**, the system reduces tedious manual formatting while preserving semantic content and ensuring compilable outputs. 
-Please click to watch our demonstration video:[Video](https://youtu.be/69NrKQXc-Mw)
+Please click to watch our [Demonstration Video](https://youtu.be/69NrKQXc-Mw)
 
 ## Motivation  
 Academic publishing often requires authors to strictly follow different LaTeX templates such as IEEE, MDPI, or Springer. Reformatting manuscripts manually across these styles is tedious, error-prone, and demands significant time and expertise. Existing solutions, such as template-specific scripts, are rigid and frequently fail when dealing with complex documents that include citations, figures, or multi-section structures.  
@@ -25,7 +26,7 @@ ICDM_2025_LatexFC addresses these challenges by leveraging large language models
 
 ## Architecture
 <p align="center">
-<img src="https://github.com/ZoeLinUTS/ICDM_2025_LatexFC/blob/58bae6c67edbd54d5c05a452542a538eb2494af9/%20System_Architecture.png" width="60%" alt="System Architecture Diagram">
+<img src="Architecture_Diagram.png" width="60%" alt="System Architecture Diagram">
 </p>
 Our system is deployed using php and needs to be configured in the htdocs path of xampp to enable local deployment and interaction.
 
