@@ -1,5 +1,5 @@
 # ICDM_2025_LatexFC
-This is a repository for our project LatexFC that has been accepted by ICDM 2025
+This is a repository for our project LatexFC that has been accepted by ICDM 2025.
 
 ## Overview  
 ICDM_2025_LatexFC is a Large Language Model (LLM)-powered framework that automates the conversion of LaTeX manuscripts across heterogeneous publisher-specific templates (IEEE, MDPI, Springer, Elsevier, etc.).  
